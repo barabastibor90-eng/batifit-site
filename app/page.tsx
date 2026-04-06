@@ -36,9 +36,7 @@ export default function BaTiFitPreview() {
           </nav>
 
           <div className="flex items-center gap-4">
-            <a href={waLink} target="_blank" className="hidden md:inline-flex rounded-xl px-6 py-3 text-sm bg-white text-black font-semibold hover:opacity-90 transition">
-              Join Now
-            </a>
+            
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
               className="md:hidden flex items-center justify-center w-10 h-10 rounded-lg border border-gray-700 text-white"
@@ -55,9 +53,7 @@ export default function BaTiFitPreview() {
               <a onClick={() => setMobileOpen(false)} href="#programs">Programs</a>
                             <a onClick={() => setMobileOpen(false)} href="#booking">Book</a>
               <a onClick={() => setMobileOpen(false)} href="#contact">Contact</a>
-              <a href={waLink} onClick={() => setMobileOpen(false)} className="mt-4 rounded-xl py-4 bg-white text-black font-semibold text-center">
-                Join Now
-              </a>
+              
             </nav>
           </div>
         )}
@@ -171,6 +167,33 @@ export default function BaTiFitPreview() {
                 />
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" className="py-24 px-6 bg-black border-t border-gray-900">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-sm uppercase tracking-[0.35em] text-red-400 mb-3">Contact</p>
+          <h2 className="text-4xl md:text-5xl font-extrabold mb-4">Let’s Start Your Transformation</h2>
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-10">
+            Ready to take the first step? Reach out directly and I’ll help you choose the best option for your goals.
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-6 text-left">
+            <a href="mailto:barabastibor90@gmail.com" className="rounded-2xl border border-gray-800 bg-gray-900 p-6 hover:border-red-500 transition">
+              <p className="text-sm uppercase tracking-[0.25em] text-gray-400 mb-2">Email</p>
+              <p className="text-white font-semibold break-all">barabastibor90@gmail.com</p>
+            </a>
+
+            <a href="https://instagram.com/fitbati" target="_blank" rel="noopener noreferrer" className="rounded-2xl border border-gray-800 bg-gray-900 p-6 hover:border-red-500 transition">
+              <p className="text-sm uppercase tracking-[0.25em] text-gray-400 mb-2">Instagram</p>
+              <p className="text-white font-semibold">@fitbati</p>
+            </a>
+
+            <a href={waLink} target="_blank" rel="noopener noreferrer" className="rounded-2xl border border-gray-800 bg-gray-900 p-6 hover:border-red-500 transition">
+              <p className="text-sm uppercase tracking-[0.25em] text-gray-400 mb-2">WhatsApp</p>
+              <p className="text-white font-semibold">+32 472 21 15 07</p>
+            </a>
           </div>
         </div>
       </section>
