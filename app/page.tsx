@@ -180,7 +180,7 @@ export default function BaTiFitPreview() {
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 text-left">
-            <a href="mailto:barabastibor90@gmail.com" className="rounded-2xl border border-gray-800 bg-gray-900 p-6 hover:border-red-500 transition">
+            <a href="mailto:barabastibor90@gmail.com?subject=Coaching%20Inquiry&body=Hi%20Tibor,%0A%0AI%E2%80%99m%20interested%20in%20BaTiFit%20coaching.%20My%20goal%20is:%20%0A%0AMy%20experience%20level:%20%0A%0AWhen%20I%E2%80%99d%20like%20to%20start:%20%0A%0AThanks!" className="rounded-2xl border border-gray-800 bg-gray-900 p-6 hover:border-red-500 transition">
               <p className="text-sm uppercase tracking-[0.25em] text-gray-400 mb-2">Email</p>
               <p className="text-white font-semibold break-all">barabastibor90@gmail.com</p>
             </a>
