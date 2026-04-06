@@ -133,28 +133,26 @@ export default function BaTiFitPreview() {
       <section id="booking" className="py-24 px-6 bg-gradient-to-b from-gray-900 to-black">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10">
-            <p className="text-sm uppercase tracking-[0.35em] text-red-400 mb-3">Book Your Session</p>
-            <h2 className="text-4xl md:text-5xl font-extrabold mb-4">See available slots and book instantly</h2>
+            <p className="text-sm uppercase tracking-[0.35em] text-red-400 mb-3">Private Coaching</p>
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-4">Book Your Transformation Session</h2>
             <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-              Connect your Calendly link here so clients can see your open spots in real time and reserve a session with BaTiFit.
+              Choose a time that suits you and take the first step toward a stronger, more confident version of yourself. Every session is tailored, focused, and results-driven.
             </p>
           </div>
 
           <div className="grid lg:grid-cols-[1.1fr_1.4fr] gap-8 items-start">
             <div className="rounded-3xl border border-gray-800 bg-black/60 p-8 shadow-2xl">
-              <h3 className="text-2xl font-bold mb-4">Why book here?</h3>
+              <h3 className="text-2xl font-bold mb-4">What to expect</h3>
               <div className="space-y-4 text-gray-300">
-                <p>• Live availability synced to your calendar</p>
-                <p>• Easy booking for consultations, PT sessions, or online coaching</p>
-                <p>• Instant fallback to WhatsApp if a client has questions first</p>
+                <p>• Personalised coaching focused on your goals</p>
+                <p>• Clear structure, guidance, and accountability</p>
+                <p>• Real results — physically and mentally</p>
               </div>
 
               
 
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                <a href="https://calendly.com/" target="_blank" rel="noopener noreferrer" className="rounded-2xl bg-white px-6 py-4 text-center font-semibold text-black hover:opacity-90 transition">
-                  Create Calendly
-                </a>
+                
                 <a href={waLink} target="_blank" rel="noopener noreferrer" className="rounded-2xl border border-white px-6 py-4 text-center font-semibold text-white hover:bg-white hover:text-black transition">
                   Ask on WhatsApp
                 </a>
